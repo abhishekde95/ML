@@ -6,3 +6,8 @@
 - OpenCV
 - Recommendation systems 
 - PySpark 
+
+
+# Installation 
+`conda activate ML`
+`pip install -e .`
