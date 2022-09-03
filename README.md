@@ -9,5 +9,8 @@
 
 
 # Installation 
+Activate the environment
 `conda activate ML`
+
+Install the package in dev mode
 `pip install -e .`
