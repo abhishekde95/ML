@@ -18,15 +18,14 @@ def create_shorter_video(video_filepath: str, start: float, stop: float):
 
     # Setting up the output file
     if ".avi" in video_filepath:
-        output_video_filepath = video_filepath.split(".avi")[0] + '_clipped.avi'
+        output_video_filepath = video_filepath.split(".avi")[0] + "_clipped.avi"
     elif ".mp4" in video_filepath:
-        output_video_filepath = video_filepath.split(".mp4")[0] + '_clipped.mp4'
+        output_video_filepath = video_filepath.split(".mp4")[0] + "_clipped.mp4"
     else:
-        raise(RuntimeError, "Should be either .mp4 or .avi file")
+        raise RuntimeError("Should be either .mp4 or .avi file")
 
     frame_width = int(video.get(cv2.CAP_PROP_FRAME_WIDTH))
     frame_height = int(video.get(cv2.CAP_PROP_FRAME_HEIGHT))
-    print(output_video_filepath)
     out = cv2.VideoWriter(
         filename=output_video_filepath,
         fourcc=_getVideoFourCC(video_filepath),
