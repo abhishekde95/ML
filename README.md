@@ -14,3 +14,6 @@ Activate the environment
 
 Install the package in dev mode
 `pip install -e .`
+
+Import the package
+`import mllib`
