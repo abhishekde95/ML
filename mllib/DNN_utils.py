@@ -20,7 +20,10 @@ def accuracy_fn(y_true: torch.Tensor, y_pred: torch.Tensor) -> torch.float:
 
 
 def plot_decision_boundary(
-    model: torch.nn.Module, X: torch.Tensor, y: torch.Tensor, device: torch.device = "cpu"
+    model: torch.nn.Module,
+    X: torch.Tensor,
+    y: torch.Tensor,
+    device: torch.device = "cpu",
 ):
     """Plots decision boundaries of model predicting on X in comparison to y.
     Source - https://madewithml.com/courses/foundations/neural-networks/ (with modifications)
