@@ -1,6 +1,7 @@
 # ML and data visualization - related projects
 - H20
 - Bokeh
+- General ML  
 - RAFT
 - PyTorch
 - OpenCV
