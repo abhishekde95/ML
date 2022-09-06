@@ -152,7 +152,6 @@ def train_model(
 
     return {
         "model_name": model.__class__.__name__,
-        # only works when model was created with a class
         "model_loss": train_loss.item(),
         "model_acc": train_acc,
     }
@@ -198,7 +197,6 @@ def test_model(
 
     return {
         "model_name": model.__class__.__name__,
-        # only works when model was created with a class
         "model_loss": test_loss.item(),
         "model_acc": test_acc,
     }
@@ -218,4 +216,4 @@ def get_model_prediction(
     with torch.inference_mode():
         y_pred = model(input_data)
 
-    return torch.argmax(y_pred)
+    return y_pred.argmax(dim=1)
