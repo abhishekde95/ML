@@ -7,3 +7,5 @@
 [4. Intro to GAN](https://towardsdatascience.com/a-basic-intro-to-gans-generative-adversarial-networks-c62acbcefff3)
 
 [5. Credit Risk modeling](https://towardsdatascience.com/credit-risk-modeling-with-machine-learning-8c8a2657b4c4)
+
+[6. Tech World with Nana Janashia](https://www.techworld-with-nana.com/)
