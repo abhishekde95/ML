@@ -5,3 +5,5 @@
 [3. PySpark vs. pandas](https://medium.com/@tushargoel-ml/why-are-data-scientists-obsessed-with-pyspark-over-pandas-a-truth-of-data-science-industry-87c708307c62)
 
 [4. Intro to GAN](https://towardsdatascience.com/a-basic-intro-to-gans-generative-adversarial-networks-c62acbcefff3)
+
+[5. Credit Risk modeling](https://towardsdatascience.com/credit-risk-modeling-with-machine-learning-8c8a2657b4c4)
