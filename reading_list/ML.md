@@ -11,3 +11,7 @@
 [6. Tech World with Nana Janashia](https://www.techworld-with-nana.com/)
 
 [7. Google DS interview questions](https://medium.com/@anna.wu9222/google-data-scientist-interview-questions-step-by-step-solutions-63b7403e2a5c)
+
+[8. MLflow](https://www.mlflow.org/docs/latest/tutorials-and-examples/tutorial.html)
+
+[9. Streamlit](https://streamlit.io/)
