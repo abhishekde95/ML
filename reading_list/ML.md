@@ -15,3 +15,5 @@
 [8. MLflow](https://www.mlflow.org/docs/latest/tutorials-and-examples/tutorial.html)
 
 [9. Streamlit](https://streamlit.io/)
+
+[10. Why docker containers are useful for ML](https://aws.amazon.com/blogs/opensource/why-use-docker-containers-for-machine-learning-development/)
